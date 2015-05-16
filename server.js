@@ -72,7 +72,7 @@ Todo = mongoose.model('Todo', {
                 if (err)
                     res.send(err)
 
-                res.json(todos)
+                res.json(todo)
         })
     })
 
